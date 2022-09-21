@@ -1,0 +1,46 @@
+IVLAB API
+
+Link API : https://desa-pintar.id/ivlab/public/api/
+Directory Image Cover Produk : https://desa-pintar.id/ivlab/public/cover_produk/
+Directory Image Cover Pelatihan : https://desa-pintar.id/ivlab/public/cover_pelatihan/
+
+[ PRODUK ]
+GET Produk
+Endpoint : /getProduk
+
+GET Produk By Id
+Endpoint : /getProdukById/{id}
+
+[ PELATIHAN ]
+GET Pelatihan
+Endpoint : /getPelatihan
+
+GET Pelatihan By Id
+Endpoint : /getPelatihanById/{id}
+
+GET Pelatihan Terenroll By Id BUMDES
+Endpoint : /getPelatihanByEnroll/{id_bumdes}
+
+GET Detail Pelatihan
+Endpoint : getDetailPelatihan/{id}
+
+GET Detail Materi
+Endpoint : getDetailMateri/{id_materi}
+
+
+POST Enroll Pelatihan
+Endpoint  : /enrollPelatihan
+Param : id_bumdes,id_pelatihan
+
+
+[ BUMDES ]
+POST Registrasi
+Endpoint : /regis
+Param : nama_bumdes,desa,email,password
+
+POST Login
+Endpoint : /login
+Param : email,password
+
+
+
